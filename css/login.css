@@ -1,0 +1,35 @@
+/****公用样式****/
+body,div,h1,h2,h3,p,a,span,img{margin:0;padding:0;}
+img{border:none;}
+/***头部样式***/
+#header   {   width:1100px; margin:0 auto;  }
+#header{height:70px;position:relative; }
+#logo{width:200px;height:70px;position:absolute;top:15px;left:0px;}
+#header .word{ width:200px;height:50px;color:#414141;font-size:20px; position:absolute;top:41px;left:210px;}
+#friendLinks{width:600px; position:absolute; right:0;top:35px; text-align:right; }
+#friendLinks a{font-weight:bold;text-decoration:none;color:#000;}
+#friendLinks a:hover{color:#F60;}
+/***内容样式***/
+#Content{ height:480px;width:100%; margin-top:37px;background:#bdf5fd;position:relative; }
+#Content p{font-size:20px;margin-top:10px;line-height:30px;position:absolute; top:65px;left:36px;}
+#Content .img1{ position:absolute; bottom:0px;left:247px;}
+
+#Con1{position:absolute; bottom:70px; left:500px;width:400px;height:370px;background:#fff; box-shadow:0px 0px 5px #000;}
+#Con1 ul{margin-top:30px;color:#454545;font-size:14px;}
+#Con1 ul li{list-style:none;margin-bottom:30px;}
+#Con1 ul li .txt{height:30px;width:280px;border:1px solid #000;text-indent:5px;line-height:20px;padding-top:5px;}
+#Con1 ul li #log{width:15px;height:15px;}
+#Con1 ul li span{font-size:17px;font-weight:bold;}
+#Con1 ul li a{margin-left:70px;font-size:17px;color:#22c8ff;text-decoration:none;}
+#Con1 #log1 a{width:240px;height:42px;background:url("../images/loginup.png");display:block;margin:0 auto;}
+#Con1  #log1 a:hover{background:url("../images/logindown.png");margin:0 auto;}
+#Con1 .zhuce{margin-top:30px;width:400px;height:40px;}
+#Con1 .zhuce .liji{margin-left:50px;font-size:17px;color:#22c8ff;text-decoration:none;}
+#Con1 .zhuce .QQ{margin-left:130px;font-size:17px;color:#22c8ff;text-decoration:none;}
+#Con1 .zhuce .deng{margin-left:0px;font-size:17px;color:#22c8ff;text-decoration:none;}
+/***尾部样式***/
+#footer { position:relative; }
+#footer .p1{position:absolute;top:40px;left:290px;}
+#footer a { color: #787878;text-decoration:none; }
+#footer a:hover { color: #F60; } 
+#footer .p2{position:absolute;top:40px;left:810px;color:#787878;}

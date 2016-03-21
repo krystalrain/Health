@@ -1,0 +1,64 @@
+*{margin:0;padding:0;font-family:"微软雅黑";}
+body{background:#eaab87;}
+
+li { list-style: none; }
+img { border: none; }
+a{text-decoration:none;}
+#header{height:50px;margin-top:0;}
+.menu { width: 900px; margin:0 auto; /*自适应浏览器居中*/ position: relative; }
+.menu .current { position: absolute;/*定位*/ bottom: 0px; background: #dddddd; height: 2px; width: 100%; }
+.nav { height: 50px; }
+.nav a { position: relative; z-index: 9999; color: #000; text-decoration: none; display: block;/*行元素转为块元素*/ float: left;height: 50px;
+        line-height: 50px;/*文字垂直*/ padding: 0px 40px;/*内边距改变自身宽度*/ font-family: "微软雅黑"; font-size: 16px; overflow: hidden;/*超出去范围隐藏*/ }
+.nav a .bor { background: #80b600; height: 2px; width: 100%; position: absolute; left: 0px; bottom: 0px; transform: translateX(-100%); -ms-transform:translateX(-100%); -o-transform:translateX(-100%); -moz-transform:translateX(-100%); -webkit-transform:translateX(-100%); /*css3改变当前位置*/ }
+.nav a:hover { color: #80b600; }
+.nav a:hover .bor { transform: translateX(0%); -ms-transform:translateX(0%); -o-transform:translateX(0%); -moz-transform:translateX(0%); -webkit-transform:translateX(0%); transition: all 800ms ease; -moz-transition: all 800ms ease; -o-transition: all 800ms ease; -webkit-transition: all 800ms ease;/*动画过程*/ }
+.nav a.abcd { color: #80b600; }
+.nav a.abcd .bor { transform: translateX(0%); -ms-transform:translateX(0%); -o-transform:translateX(0%); -moz-transform:translateX(0%); -webkit-transform:translateX(0%); }
+
+/**文字走动*/
+.health_newbao {width: 1000px;height: 30px;float: left;font-size: 14px;overflow: hidden;margin-top:17px;margin-left:230px;}
+.health_newbao marquee {width: 820px;height: 30px;float: left;direction="left";}
+.health_newbao a,.health_newbao li {line-height: 25px;display: block;float: left;}
+.health_newbao a {width: 80px;font-size: 17px;text-indent:4px;color:#000;}
+.health_newbao ul {width: 900px;}
+.health_newbao li {margin: auto 10px;font-size: 14px;color:#ff0033;}
+/**交流**/
+#Message{width:900px;/*宽*/ height:170px;/*高度*/box-shadow:0px 0px 5px #fff;/*背景颜色*/
+		margin:60px auto 0px;border-radius:5px;/*圆角*/}
+#Message p{font-size:16px;color:#666; font-family:"微软雅黑";height:40px;line-height:40px; text-indent:49px;}
+#Message .edit{width:800px; height:70px;margin:0px auto;border:1px solid #ddd;/*粗细 风格 颜色*/}
+#Message .but{width:560px;height:40px;margin-top:15px;margin-left:290px;}
+#Message .but span.msg_but{font-size:12px;width:80px; height:30px;display:inline-block;background:#ff8140;color:#fff; 
+       font-family:"微软雅黑";cursor:pointer;/*手指*/line-height:30px; text-align:center; border-radius:3px;float:right;/*右浮动*/}
+/***内容区样式**/
+#Con{width:900px;height:930px;margin:17px auto;box-shadow:0px 0px 20px #fff;border-radius:5px;position:relative;}
+#Con .cfx{width:100%;height:35px;background:rgba(128,280,0,0.5);position:absolute;top:10px;}
+/***轮播样式**/
+#demo {background: #FFF;overflow:hidden;box-shadow:0px 0px 15px #fff;
+          width: 900px;position:absolute;top:760px;}
+#demo img {border: 3px solid #fff;width:190px;height:143px;display:inline-block;}
+#indemo {float: left;width: 800%;}
+#demo1 {float: left;padding:0 5px;}
+#demo2 {float: left;padding:0 5px;}
+
+#Con .cfx a,#Con .cfx1 a,#Con .cfx2 a{color:#000;margin-left:20px;padding-top:6px;display:block;font-size:20px;}
+#Con .Con1{background:#eaab87; box-shadow:0px 0px 10px #fff;width:589px;height:280px;margin:60px 0px 10px 5px;;float:left;}
+#Con .Con1 .Con1_1{margin-left:5px;}
+#Con .Con1 ul,#Con .Con2 ul{width:490px;height:230px;margin-top:8px;}
+#Con .Con1 li{display:block;float:left;width:400px;height:32px;margin-left:275px;padding-top:8px;}
+#Con .Con2 li{display:block;float:left;width:400px;height:32px;margin-left:10px;padding-top:5px;}
+#Con .Con1 a,#Con .Con2 a{color:#000;}
+#Con .Con1 span,#Con .Con2 span{color:red;}
+#Con .Con1 a:hover,#Con .Con2 a:hover{color:blue;text-decoration:underline;}
+#Con .Con2{background:#eaab87; box-shadow:0px 0px 10px #fff;width:296px;height:280px;margin:60px 0px 10px 5px;float:left;}
+#Con .cfx1{width:100%;height:35px;background:rgba(128,280,0,0.5);position:absolute;top:360px;}
+#Con .cfx2{width:100%;height:35px;background:rgba(128,280,0,0.5);position:absolute;top:710px;}
+
+/**底部样式**/
+#footer { width:100%; height:64px; padding-top:24px;line-height:25px; margin:13px auto; box-shadow:0px 0px 15px #fff; color:#767676; text-align:center; }
+#footer a { color:#454545; margin:0 6px; text-decoration:none;}
+#footer a:hover { text-decoration:underline;color:#f52c22; }
+#footer span { margin-left:10px; }
+
+
